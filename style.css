@@ -1,0 +1,38 @@
+:root {
+    --columns:  ;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 10px);      
+    padding-top: 5rem; 
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.square {   
+    background: #f2f2f2;;
+    width:10px;
+    height: 10px;    
+}
+
+.button {
+ 
+    text-align: center;
+}
+
+.btn {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
